@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> This is my surfey form!</h1>
+
+
+    <form class="formstyle">
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="name">Email:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="name">Age:</label>
+            <input type="number" name="name">
+            <br>
+            <label for="name">Phone number:</label>
+            <input type="number" name="name">
+        </fieldset>
+
+
+        <div>
+            <fieldset>
+                <label>Please select your gender:</label>
+                <select>
+                    <option selected disabled>Select an option</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Unknown
+                    </option>
+                </select>
+            </fieldset>
+
+        </div>
+
+        <div>
+            <fieldset>
+                <h2>Please check all the boxes relevant:</h2>
+            <label><input type="checkbox" name="game">First Option</label>
+            <br>
+            <label><input type="checkbox" name="game">Second Option</label>
+            <br>
+            <label><input type="checkbox" name="game">Third Option</label>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <h2>Please select one option</h2>
+                <label><input type="radio" name="game" />First Option</label>
+                <br>
+                <label><input type="radio" name="game" />Second Option</label>
+                <br>
+                <label><input type="radio" name="game" />Third Option</label>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <textarea style="height: 80px;width: 300px;">Please provide your comments</textarea>
+
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                Pick a date: <input type="date" name="date" value="" />
+            </fieldset>
+        </div>
+
+        <div>
+            <input class="submitbuttonstyle" type="submit" onclick="alert('hello')" value="submit" />
+        </div>
+
+
+    </form>
+    
+</body>
+</html>

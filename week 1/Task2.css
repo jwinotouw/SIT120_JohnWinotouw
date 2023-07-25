@@ -1,0 +1,15 @@
+/* style for p tag */
+p{
+    color: red;
+}
+
+/* style for title class */
+.title{
+    color: brown;
+}
+
+/* style for id */
+#container{
+    font-size: small;
+    border: 5px solid rgb(0, 187, 255);
+}
